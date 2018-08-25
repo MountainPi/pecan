@@ -1,0 +1,7 @@
+pipeline:
+- frontend:
+    image: alpine
+    commands:
+    - sleep 10
+    - echo "Success!"
+    
